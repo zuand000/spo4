@@ -53,7 +53,7 @@ function uniqueId(){
 }
 
 function randDomain(){
-	$arraymail = array('spofam.my.id');
+	$arraymail = array('sprintspo.shop');
 	$datas = array_rand($arraymail, true);
 	return $arraymail[$datas];
 }
